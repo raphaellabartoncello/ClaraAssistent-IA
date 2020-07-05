@@ -1,10 +1,10 @@
-<h1>Clara Assistente</h1>
+<h1> <img src="./images/Avatar - Clara64x64.png" height = "45" > Clara Assistente</h1>
 
 <h2>Aplicação</h2>
 
 Site de apoio à empresa ao mapeamento de sintomas da COVID-19 em seus colaboradores
 
-Preview: 👉 <a href="claraassistent.github.io">Clara</a>
+Preview: 👉 <a href="https://claraassistent.github.io/">Clara</a>
 
 <h2>Utilizados</h2>
 <ul>
