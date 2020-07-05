@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+ 
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Clara - Página Inicial</title>
+	<link rel="shortcut icon" type="image/png" href="images/Avatar - Clara64x64.png" />
+	<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+	<header class="hero">
+		<nav class="hero-menu">
+			<section class="container">
+		</nav>
+		<!--Define o painel principal (destaque)-->
+		<!--Cria a classe conteudo e a define como container-->
+		<div class="hero-conteudo">
+			<div class="container">
+
+				<!--Título do conteúdo destaque-->
+				<h2 class="hero-titulo">CLARA</h2>
+
+				<!--Classificações do  título (gênero do título)-->
+				<p class="hero-genero">
+					<a href="#" class="hero-genero-item">Check-in laboral</a>
+				</p>
+				<!--Define a classe de informações sobre o lançamento-->
+				<div class="hero-informacao">
+					<p>Métricas de controle de sintomas dos colaboradores</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--Definições do corpo da aplicação-->
+	<section class="catalogo">
+
+		<!--Define a classe catálogo do tipo container para gerar os submenus-->
+		<nav class="catalogo-menu">
+			<div class="container">
+
+				<!--Lista dos tipos disponíveis no catálogo (submenus)-->
+				<ul class="catalogo-menu-lista">
+					<li class="catalogo-menu-lista-item"><a href="contato.html">Contato</a></li>
+					<li class="catalogo-menu-lista-item"><a href="sobre.html">Sobre</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+
+	<!--Definições do rodapé da aplicação-->
+
+	<!--Define a classe rodape do tipo container para gerar os submenus-->
+	<footer class="rodape">
+		<div class="container">
+
+			<!--Define a classe de logos das redes sociais da página-->
+			<ul class="rodape-lista">
+
+				<!--Twitter-->
+				<li class="rodape-lista-item icone-twitter">
+					<a href="#" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<!--Facebook-->
+				<li class="rodape-lista-item icone-facebook">
+					<a href="#" target="_blank">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<!--Instagram-->
+				<li class="rodape-lista-item icone-instagram">
+					<a href="#" target="_blank">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<!--linkedIn-->
+				<li class="rodape-lista-item icone-linkedin">
+					<a href="#" target="_blank">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+</body>
+
+<!--Chatbot Watson-->
+<script>
+	window.watsonAssistantChatOptions = {
+		integrationID: "9d641921-f2e8-4db3-a8ce-739a1a937865", // The ID of this integration.
+		region: "us-south", // The region your integration is hosted in.
+		serviceInstanceID: "7f4e7084-b55d-4f6e-8749-6c935c6df623", // The ID of your service instance.
+		onLoad: function(instance) { instance.render(); }
+	  };
+	setTimeout(function(){
+	  const t=document.createElement('script');
+	  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+	  document.head.appendChild(t);
+	});
+  </script>
+
+</html>
